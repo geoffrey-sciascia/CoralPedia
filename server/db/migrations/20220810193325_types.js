@@ -1,7 +1,7 @@
 exports.up = (knex) => {
   return knex.schema.createTable('types', (table) => {
     table.increments.primary('id')
-    table.string('types')
+    table.string('type')
   })
 }
 
