@@ -3,8 +3,8 @@ exports.seed = (knex) => {
     .then(() => {
       return knex('types').insert([
         { id: 1, type: 'Soft Coral' },
-        { id: 2, type: 'LPS' },
-        { id: 3, type: 'SPS' },
+        { id: 2, type: 'Large Polyp Stony Coral' },
+        { id: 3, type: 'Small Polyp Stony Coral' },
         { id: 4, type: 'Anemone' }
       ])
     })
