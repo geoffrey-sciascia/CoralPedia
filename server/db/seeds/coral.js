@@ -134,7 +134,7 @@ exports.seed = (knex) => {
         },
         {
           id: 11,
-          name: 'Acan',
+          name: 'Acan LH',
           scientific_name: 'Acanthastrea',
           bio: '',
           warfare: '',
