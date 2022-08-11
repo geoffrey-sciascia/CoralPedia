@@ -1,6 +1,6 @@
 exports.up = (knex) => {
   return knex.schema.createTable('coral', (table) => {
-    table.increments.primary('id')
+    table.increments('id')
     table.string('name')
     table.string('scientific_name')
     table.string('bio')
