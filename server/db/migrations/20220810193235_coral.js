@@ -3,6 +3,7 @@ exports.up = (knex) => {
     table.increments.primary('id')
     table.string('name')
     table.string('scientific_name')
+    table.string('bio')
     table.string('warfare')
     table.string('hardyness')
     table.string('diet_specifics')
