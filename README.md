@@ -9,9 +9,8 @@ Like a facebook, but for Reefers.
 
 npm i
 
-npm run knex seed: make
+npm run knex migrate:latest
 
-npm run knex seed: migrate
+npm run knex seed:run
 
 npm run dev
-
