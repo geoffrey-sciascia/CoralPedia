@@ -19,15 +19,15 @@ function App () {
       <ul>
         {types.map(type => <li key={type.id}>{type.type}</li>)}
       </ul>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Anemone' element={<Anemone />} />
         <Route path='/LPS' element={<LPS />} />
         <Route path='/SPS' element={<SPS />} />
         <Route path='/SoftCoral' element={<SoftCoral />} />
-        <Route path='/Coral' element={<Coral />} />
+        <Route path='/Coral/:id' element={<Coral />} />
         <Route path='/NewCoral' element={<NewCoral />} />
-      </Routes>
+      </Routes> */}
     </div>
   )
 }
