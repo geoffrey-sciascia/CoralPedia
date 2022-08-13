@@ -12,7 +12,7 @@ function App () {
 
   return (
     <div className='app-container'>
-      <h1 className='app-title'>Hello World!</h1>
+      <h1 className='app-title'>CoralPedia</h1>
       <ul>
         {messages.map(m => <li key={m.id}>{m.text} 👋</li>)}
       </ul>

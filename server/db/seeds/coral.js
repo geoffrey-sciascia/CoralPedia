@@ -12,7 +12,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Anemone generally can eat anything that gets stuck in their tenticles. They are carnivorous and will eat anything from shrimp to whole fish.',
           husbandry: 'In aquariums, E. quadricolor will reproduce asexually or sexually when in proper care with supplemented minerals such as iodine and other trace elements, usually purchased as an enrichment cocktail by most home aquarists.',
           aggressiveness: 'Although they do not actively go looking for fights, they are vicious if something comes into contact with them, they will attack to the best of their ability',
-          pictures: '',
+          pictures: 'BTA.jpg',
           type: 4
         },
         {
@@ -25,7 +25,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Anemone generally can eat anything that gets stuck in their tenticles. They are carnivorous and will eat anything from shrimp to whole fish.',
           husbandry: 'One of the best things about the rock flower anemone? No two look alike. Of course, that makes attempting to tell a male and female apart tricky. Good thing the group can reproduce via sexual OR asexual methods. For sexual reproduction, the males and females spawn in autumn. They release the gametes into the water column. The fertilized eggs hatch a granula larva. The granula sinks to the bottom and finds a rock to attach to. It then develops into a polyp that continues to grow. You can also see asexual reproduction. The base will divide, producing a second oral disc. It is similar to the budding you see with coral species. The growth is usually SLOW, and it could take weeks before the new rock flower separates.',
           aggressiveness: 'In general, sea anemones tend to wander. When they do not like the conditions where they are living, they pick up and move on. Rock flower anemones can do the same thing, but they choose not to. They are one of the more sedentary groups out there. Burying themselves in the sand is their M.O. It is one of the reasons their ideal for beginners. You do not need to worry about implementing protective measures around the tank.',
-          pictures: '',
+          pictures: 'Rockflower.jpg',
           type: 4
         },
         {
@@ -38,7 +38,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Anemone generally can eat anything that gets stuck in their tenticles. They are carnivorous and will eat anything from shrimp to whole fish.',
           husbandry: 'Unfortunately, it is almost impossible to breed Stichodactyla sp.in captivity. In nature, these anemones can breed by sexual and asexual means. Sexual reproduction involves sex cells or fertilization of released eggs in the water column. It is really hard to see them spawning because it also depends on the moon cycle. Fertilized eggs produce planula larvae that settles on the sea floor and grows into a new anemone. Asexual reproduction requires only one parent which splits in half from the foot or mouth to form a copy of itself (cloning). Professional aquarists cut them in half and let them heal for a month or two. Please, DO NOT do that in your home aquarium! Without proper technic you will kill the anemone.',
           aggressiveness: 'This anemone anchors itself in the substrate using somehthing large already buried beneath the substrate. It does not go wandering around the tank and so if placed away from everything, should leave everything else alone.',
-          pictures: '',
+          pictures: 'Carpet.jpeg',
           type: 4
         },
         {
@@ -51,7 +51,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Anemone generally can eat anything that gets stuck in their tenticles. They are carnivorous and will eat anything from shrimp to whole fish.',
           husbandry: 'The reproduction of the anemone can be sexual by simultaneous transmission of male and female gametes in the water or asexual by scissiparity,[5] which means that the anemone divides itself into two individuals, separating from the foot or the mouth.',
           aggressiveness: 'Although they do not actively go looking for fights, they are vicious if something comes into contact with them, they will attack to the best of their ability',
-          pictures: '',
+          pictures: 'Magnificient.jpg',
           type: 4
         },
         {
@@ -64,7 +64,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Anemone generally can eat anything that gets stuck in their tenticles. They are carnivorous and will eat anything from shrimp to whole fish.',
           husbandry: 'There is no information yet on breeding Tube Anemone in captivity. In nature, the C. membranaceus reproduce sexually with the female being larger than the male. Unlike the true anemones, they do not reproduce through asexual means such as fission, where the anemone is divided or split into parts to create a new anemone. Tube Anemones are hermaphrodites, meaning they are both male and female. Although each animal can produce both eggs and sperm, they do not produce them at the same time, so it takes two specimens to produce a zygote. The Zygote is a fertilized egg, the beginnings of a new tube anemone. There is no information yet on breeding these anemones in captivity.',
           aggressiveness: 'As this is a sedantary species, other tank mates should be fine so long as it is isolated away from everything else.',
-          pictures: '',
+          pictures: 'Tube.jpeg',
           type: 4
         },
         {
@@ -77,7 +77,7 @@ exports.seed = (knex) => {
           diet_specifics: 'According to an article on Chaos Aquaculture, zoanthids enjoy eating specialized coral food, as well as simple foods such as brine shrimp, copepods, and rotifers. Zoanthids also enjoy amino acid and vitamin supplements. However, feeding is not required as zoas are photosynthetic. Therefore, if you are not feeding other coral, it may be best to not worry about feeding',
           husbandry: 'Zoanthids tend to reproduce via budding, so for reproduction to occur, you just need to make sure the coral colony is happy and thriving.',
           aggressiveness: 'Zoanthids are not an aggressive coral, but placement can drive your success and growth rate. Beyond flow and lighting, zoanthids should be placed on flat surfaces. Zoas grow by spreading outward and struggle to grow on rocks that are too porous. By placing zoas on flat surfaces, you allow these zoanthids to grow more easily, and quickly.',
-          pictures: '',
+          pictures: 'Zoanthid.jpg',
           type: 1
         },
         {
@@ -90,7 +90,7 @@ exports.seed = (knex) => {
           diet_specifics: 'In general, you do not have to worry about feeding them in the reef set up. Green Star Polyps will perfectly well underneath the lights that you have in your tank. However, if you want them to grow even faster and you want them to have some better color on them I would definitely recommend feeding some liquid food to them.',
           husbandry: 'This coral can be like a weed and so you are more likely to ',
           aggressiveness: 'Start polyps are very peaceful with no means to defend themselves.',
-          pictures: '',
+          pictures: 'GSP.jpg',
           type: 1
         },
         {
@@ -103,7 +103,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Kenya tree coral receives some nutrition with the aid of the symbiotic algae (zooxanthellae) living in their soft tissue. They also feed by absorbing dissolved nutrients and trapping micro planktons and organic matter from the water column. Though they obtain nourishment through the symbiotic algae that live within their tissue, it will not be enough to make them grow optimally. That said, they need supplemental target feeding at least once a week.',
           husbandry: 'Kenya tree coral will spread all over the aquarium. They are capable of budding and fragmentation, i.e. releasing tiny parts or buds of the parent colony; these will break away and move to different areas of the reef tank, then grow and develop into a polyp.',
           aggressiveness: 'Since this species is known to release chemical substances into the water as a defense mechanism. Therefore, you must engage in frequent water changes to remove/dilute it. You may as well fit activated carbon media into the filter to inhibit the potency of this harmful chemical.',
-          pictures: '',
+          pictures: 'KenyaTree.jpeg',
           type: 1
         },
         {
@@ -116,7 +116,7 @@ exports.seed = (knex) => {
           diet_specifics: 'As with other marine corals, Ricordea derives much of its energy from the products of the symbiotic algae zooxanthellae living in its tissue. Mutualistic relationship with the zooxanthellae allows Ricordea coral to obtain nutrition through the process of photosynthesis. Ricordea corals can also filter-feed, hence they are capable of straining suspended matter, food particles, and dissolved organic matter from the aquarium water.',
           husbandry: 'In nature, Ricordea corals have two ways of reproduction: -Sexually by producing planula larvae through the fertilization of the male and female gametes. These larvae then settle onto the bottom and gradually metamorphose into new individual polyps. -Asexually. They are also capable of asexual reproduction, and this type of reproduction is very common in the reef aquarium. Ricordea corals can increase their numbers asexually through two known methods: longitudinal fission and pedal laceration. Longitudinal fission takes places when the coral develops multiple mouths, and then splits in the center thereby separating into two individual polyps. An alternative method is pedal laceration whereby the coral leaves pieces of their foot behind while moving around, and these pieces will grow into new full-sized polyps',
           aggressiveness: 'It is a semi-aggressive coral and as such, needs to be adequately spaced out from other corals especially LPS corals with long sweeper tentacles. Ricordea corals lack this kind of tentacles, but they can equally deliver fairly potent stings using their bubbly tentacles to corals in close proximity.',
-          pictures: '',
+          pictures: 'Riccordea.jpg',
           type: 1
         },
         {
@@ -129,7 +129,7 @@ exports.seed = (knex) => {
           diet_specifics: 'When it comes to nutrition, just providing light for photosynthesis is adequate, but it is possible to spot feed them if you shut off the pumps and are patient.',
           husbandry: 'In home aquariums these mushrooms reproduce asexually through longitudinal fission. In essence that means that they start to develop two mouths and then pinch themselves in half to form two separate mushrooms. It is a lengthier process than say Discosoma that asexually spread through pedal laceration where the coral drops off bits of its foot behind to spawn new mushrooms.',
           aggressiveness: 'It is a semi-aggressive coral and as such, needs to be adequately spaced out from other corals especially LPS corals with long sweeper tentacles. Rhodactis corals lack this kind of tentacles, but they can equally deliver fairly potent stings using their bubbly tentacles to corals in close proximity.',
-          pictures: '',
+          pictures: 'Rhodactis.jpeg',
           type: 1
         },
         {
@@ -142,7 +142,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Just like other animals in the class Anthrozoa, Acan corals receive a great portion of their nutrition through photosynthesis from their symbiotic relationship with the zooxanthellae algae. In a well-established reef aquarium, Acans can also feed through the water column by consuming the phytoplankton and zooplankton suspended in the tank water. However, regular feeding should be a priority, they should be fed every 2 or 3 days. Acans are more active at night when your fish are asleep. They will extend their tentacles to collect meals.',
           husbandry: 'Large poly stony corals including Acans corals are hermaphrodites, meaning that they possess male and female gametes within the same organism, and they can also reproduce both sexually and asexually. Acans corals are broadcast spawners, in the wild, they reproduce by releasing eggs and sperm at the same time which results in a fertilized egg, this develops into a free-swimming planula larva. After a while, the larva will settle onto the substrate, becoming planksters. Eventually, the larva will metamorphose into a tiny polyp which begins to excrete calcium carbonate, thus developing into a coral.',
           aggressiveness: 'Polyps from the genus Mircromussa are generally peaceful towards other coral species, they do extend tentacles in order to feed and can damage other corals. Therefore, they should be properly distanced or kept away from other corals. These corals will extend their stomachs at night to attack corals nearby.',
-          pictures: '',
+          pictures: 'Acan.jpg',
           type: 2
         },
         {
@@ -155,7 +155,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Like many of our other LPS, feeding is a major key to the long term success of keeping Blastos. Blastomussa can be fed a mix of meaty foods such as pieces of krill or mysis shrimp.',
           husbandry: 'In terms of propagation, Blastomussa have been successfully fragmented and are an excellent candidate for aquaculture.',
           aggressiveness: 'Though they have sweeper tenitcles, they are not considered aggressive as their sting is not very strong. In coral war-fare, the Blasto is likely to loose, so adequate space away from aggressive corals should be given to this coral to allow for a good amount of growth.',
-          pictures: '',
+          pictures: 'Blastomussa.jpg',
           type: 2
         },
         {
@@ -168,7 +168,7 @@ exports.seed = (knex) => {
           diet_specifics: 'As with all other LPS corals, Torch corals have a symbiotic relationship with zooxanthellae hosting in their tissue and this enables them to obtain nutrients through photosynthesis. Although this feeding mechanism ensures they get enough nutrients to survive, Torch corals would also benefit hugely from supplemental or manual feeding.',
           husbandry: 'Torch corals are capable of carrying out sexual and asexual reproduction. In the wild, the corals will release mature gametes (eggs and sperm) into the water, fertilization takes place, and this will give rise to coral larvae, otherwise known as planulae. Under the right conditions, the free-swimming planulae will metamorphose into polyps that will attach themselves to the surface they have settled on. In asexual reproduction, the mature polyps reproduce by budding. This enables smaller polyps to form around the base, these polyps will remain connected to the colony or break-off in response to environmental conditions to establish a new colony. If you see long strings coming out of the Torch coral, do not worry, it just a sign that its heads are about to split soon. Another means of propagation is through the fragging of a healthy coral.',
           aggressiveness: 'Torch corals are sessile and generally aggressive, and they will tend to compete with other corals for space in the reef tank. A rule of thumb is to leave plenty of space in between your torches and any other coral or tankmates in the aquarium. This is important as they possess cnidocyte, an explosive cell containing a giant secretory organelle known as nematocyst, and this is used by the corals to deliver a painful sting to competitors or nearby organisms. In essence, these stinging cells help Torch corals immobilize and capture prey in their environment, and it also serves as a defensive mechanism against predators.',
-          pictures: '',
+          pictures: 'Torch.jpeg',
           type: 2
         },
         {
@@ -181,7 +181,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Regardless of the presence and role of the photosynthetic zooxanthellae, they should also be fed live and meaty frozen food. Through supplemental or manual feeding, the corals will grow more vigorously, so do not assume that the nutrition they get from photosynthesis is enough to make them attain rapid growth spurt and gain enormous mass.',
           husbandry: 'Frogspawn corals can reproduce through sexual and asexual means. In the wild, they carry out sexual reproduction by releasing gametes into the water, resulting in a fertilized egg which eventually gives rise to a free-swimming planula larva. Afterward, the planula larva will metamorphose to a tiny polyp which begins to excrete calcium carbonate, thus developing into a coral. Moreover, Frogspawn corals are capable of reproducing asexually. As seen in reef aquariums, a Frogspawn coral will bud off a small group of polyps with little skeletons present. It usually takes them a few months to turn into full-sized heads. They will also break-off individual polyps in response to stress, these polyps will relocate elsewhere and start a new colony. Another method is through coral fragging. However, it can be a little bit tricky because, as I have mentioned earlier, there are two types of Frogspawn corals: the wall type and the branching type.',
           aggressiveness: 'Euphyllia corals can be quite aggressive when placed in close proximity to other corals, as they tend to battle/compete for real estate in your aquarium. Therefore they should be adequately spaced from other corals in the tank. Frogspawn coral are hostile but not to the species in its own genus, however, corals of other genera in the family Euphylliidae are not exempted from this hostility. As observed, the polyps extend during the day and only partially at night. Their sweeper tentacles can extend up to 25 cm in larger colonies when they witness hunger pangs, this poses a threat to nearby corals because of the powerful sting they can deliver.',
-          pictures: '',
+          pictures: 'Frogspawn.jpeg',
           type: 2
         },
         {
@@ -194,7 +194,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Regardless of the presence and role of the photosynthetic zooxanthellae, they should also be fed live and meaty frozen food. Through supplemental or manual feeding, the corals will grow more vigorously, so do not assume that the nutrition they get from photosynthesis is enough to make them attain rapid growth spurt and gain enormous mass.',
           husbandry: 'Hammer corals can reproduce through sexual and asexual means. In the wild, they carry out sexual reproduction by releasing gametes into the water, resulting in a fertilized egg which eventually gives rise to a free-swimming planula larva. Afterward, the planula larva will metamorphose to a tiny polyp which begins to excrete calcium carbonate, thus developing into a coral. Moreover, Frogspawn corals are capable of reproducing asexually. As seen in reef aquariums, a Frogspawn coral will bud off a small group of polyps with little skeletons present. It usually takes them a few months to turn into full-sized heads. They will also break-off individual polyps in response to stress, these polyps will relocate elsewhere and start a new colony. Another method is through coral fragging. However, it can be a little bit tricky because, as I have mentioned earlier, there are two types of Frogspawn corals: the wall type and the branching type.',
           aggressiveness: 'Euphyllia corals can be quite aggressive when placed in close proximity to other corals, as they tend to battle/compete for real estate in your aquarium. Therefore they should be adequately spaced from other corals in the tank. Hammer coral are hostile but not to the species in its own genus, however, corals of other genera in the family Euphylliidae are not exempted from this hostility. As observed, the polyps extend during the day and only partially at night. Their sweeper tentacles can extend up to 25 cm in larger colonies when they witness hunger pangs, this poses a threat to nearby corals because of the powerful sting they can deliver.',
-          pictures: '',
+          pictures: 'Hammer.jpg',
           type: 2
         },
         {
@@ -207,7 +207,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Although a high percentage of their nutritional requirements are acquired by photosynthesis, they also benefit from regular feeding for both growth and coloration. There are three great sources of food that work well, amino acids, small zooplankton, and simply having fish present.',
           husbandry: 'Acropora tenuis is a simultaneous hermaphrodite. Spawning takes place once a year and is synchronised among the colonies in any one locality. Packets of eggs and sperm are released into the water column and, being buoyant, rise to the surface. Here the packets break up and cross-fertilisation takes place with gametes from different colonies intermixing. Fragmenting is how the reefing community propagates this coral. Use bone cutters to brek off a branch then set the piece onto a new frag plug/disk using reef glue.',
           aggressiveness: 'Although they do not look it, Acropora are an aggressive coral. They do not have stinging sweeper tentacles or engage in chemical warfare but they pack a powerful sting especially to nearby SPS. When two Acropora touch, winners and losers determined quickly.',
-          pictures: '',
+          pictures: 'Staghorn.jpg',
           type: 3
         },
         {
@@ -220,7 +220,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Although a high percentage of their nutritional requirements are acquired by photosynthesis, they also benefit from regular feeding for both growth and coloration. There are three great sources of food that work well, amino acids, small zooplankton, and simply having fish present.',
           husbandry: 'This genus for the most part has been propagated extensively in captivity and is an excellent candidate for aquaculture. Like many other varieties of branching SPS, Stylophora can take on completely different shapes and colors depending on their location on the reef. Larger colonies are optimized for a specific location and may struggle when placed in a new reef tank. It is for this reason we recommend starting with frags of SPS and letting them grow to a particular reef setup rather than starting with large colonies that may experience die-off once introduced in the new aquarium.',
           aggressiveness: 'When threatened, this coral will release hydrogen peroxide into the water coloumn, creating an imbalance of water chemistry.',
-          pictures: '',
+          pictures: 'Stylophora.jpg',
           type: 3
         },
         {
@@ -233,7 +233,7 @@ exports.seed = (knex) => {
           diet_specifics: 'There is a type of marine algae, known as zooxanthellae, that lives in a symbiotic relationship with the S. Hystrix. The zooxanthellae use photosynthesis in order to create sustenance. This is how the Birds Nest Corals receive most of their nutrients. This species can also capture small food particles in their water columns and capture planktonic organisms. In addition, the species can absorb dissolved organic matter and can be fed fine particle foods weekly (such as Marine Snow). Calcium, Magnesium, Strontium, and Trace Elements should be added as supplements when needed.',
           husbandry: 'In nature, the Birds Nest Corals can breed by sexual and asexual means. Sexual reproduction involves sex cells or fertilization of released eggs in the water column. These corals become sexually mature at 2 to 3 years old. It is really hard to see them spawning because it also depends on the moon cycle. Fertilized eggs produce planula larvae that settle on the sea-floor and grow into a new the Birds Nest Coral by excreting calcium carbonate. Asexual reproduction requires only one parent. It can happen when the colony is dying and polyps separate themselves to survive and form their own colonies. To some point, aquarists adopted this method to propagate the Birds Nest Corals in aquariums. Fragging is extremely easy compared to many other types of coral. You can simply break off a piece but it is better to make a clean cut. You should then glue the piece to a frag plug using either underwater putty or 2-part epoxy.',
           aggressiveness: 'The species happens to be a mild-mannered species. They get along with corals within their genus. However, they will be aggressive to corals outside of their genus. You should be sure to put the corals away from other corals. The corals can also co-exist with well-fed fish and certain species of crabs may inhabit the coral. The crabs also use the coral as a mating ground.',
-          pictures: '',
+          pictures: 'Seriatapora.jpg',
           type: 3
         },
         {
@@ -246,7 +246,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Montipora require both clean water and consistent high levels of major ions to maintain their growth rate. They are not quite as temperamental as Acropora however suboptimal water chemistry can lead to undesirable changes in color or cause the polyps of the coral to retract for extended periods of time. There are three major chemical parameters that are needed by Montipora to build its stony skeleton. These parameters are Calcium, Alkalinity, and Magnesium',
           husbandry: 'They are one of the easiest corals to break apart and reattach to new substrate. What makes them interesting however is that they are one of the corals that people are experimenting with in the way of grafting. Montipora are able to be grafted like plants where the pigmentation transfers between two dissimilar looking individuals. What you end up with is this ice cream swirl of color in its body.',
           aggressiveness: 'The species happens to be a mild-mannered species. They get along with corals within their genus. However, they will be aggressive to corals outside of their genus. You should be sure to put the corals away from other corals. The corals can also co-exist with well-fed fish and certain species of crabs may inhabit the coral. The crabs also use the coral as a mating ground.',
-          pictures: '',
+          pictures: 'Montipora.jpg',
           type: 3
         },
         {
@@ -259,7 +259,7 @@ exports.seed = (knex) => {
           diet_specifics: 'Pocillopora corals contain microscopic symbiotic algae (zooxanthellae) living within them. Through photosynthesis, these algae produce energy-rich molecules that the coral polyps can assimilate. In return, the coral provides the algae with protection and access to sunlight. The polyps also feed by capturing tiny particles using their tentacles. These corals are widespread because they sometimes attach to floating objects and can be carried far afield by currents and wind.',
           husbandry: 'The polyps are hermaphrodite, possessing four sets of male and four sets of female gonads. Pocillopora can reproduce asexually via fragmentation. They also reproduce sexually and the larvae develop inside the polyps rather than free floating in the water. When they are mature, the larvae are released and can remain free-swimming for several weeks before settling on the substrate.',
           aggressiveness: 'The species happens to be a mild-mannered species. They get along with corals within their genus. However, they will be aggressive to corals outside of their genus. You should be sure to put the corals away from other corals. The corals can also co-exist with well-fed fish and certain species of crabs may inhabit the coral. The crabs also use the coral as a mating ground.',
-          pictures: '',
+          pictures: 'Pocillopora.jpg',
           type: 3
         }
       ])
