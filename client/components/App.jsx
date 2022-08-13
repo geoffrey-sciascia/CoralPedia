@@ -1,20 +1,22 @@
+/* eslint-disable promise/catch-or-return */
 import React, { useEffect, useState } from 'react'
 
-import { fetchGreetings } from '../api'
+import { fetchTypes } from '../api'
 
 function App () {
-  const [messages, setMessages] = useState([])
+  const [types, setTypes] = useState([])
 
   useEffect(() => {
-    fetchGreetings()
-      .then(greetings => setMessages(greetings))
+    fetchTypes()
+      .then(types => setTypes(types))
   }, [])
 
   return (
     <div className='app-container'>
       <h1 className='app-title'>CoralPedia</h1>
+      <p>Welcome to CoralPedia, A project by Geoffrey Sciascia</p>
       <ul>
-        {messages.map(m => <li key={m.id}>{m.text} 👋</li>)}
+        {types.map(t => <li key={t.id}>{t.type}</li>)}
       </ul>
     </div>
   )
