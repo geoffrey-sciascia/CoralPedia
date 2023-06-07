@@ -1,5 +1,6 @@
 /* eslint-disable promise/catch-or-return */
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { fetchTypes } from '../api'
 
@@ -16,7 +17,7 @@ function Home () {
       <h1 className='app-title'>CoralPedia</h1>
       <p>Welcome to CoralPedia, A project by Geoffrey Sciascia</p>
       <ul>
-        {types.map(type => <li key={type.id}>{type.type}</li>)}
+        {types.map(type => <li key={type.id}><Link to={`/${type.alias}`}>{type.type}</Link></li>)}
       </ul>
     </div>
   )
