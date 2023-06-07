@@ -11,13 +11,8 @@ function getAllTypes (db = connection) {
 // function to get all coral in that type
 function getSoftCoral (db = connection) {
   return db('coral')
-    .select(
-      'coral.name',
-      'coral.scientific_name',
-      'coral.id',
-      'coral.type'
-    )
-    .where('coral.type', '1')
+    .select()
+    .where('coral.type', '=', '1')
 }
 
 // function to get one coral
@@ -25,7 +20,7 @@ function getSoftCoral (db = connection) {
 function getOneCoral (id, db = connection) {
   return db('coral')
     .select()
-    .where('coral.id', id)
+    .where('coral.id', '=', 1)
 }
 
 module.exports = {

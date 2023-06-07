@@ -7,3 +7,11 @@ export function fetchTypes () {
       return response.body
     })
 }
+
+export function fetchSoftCoral () {
+  return request
+    .get('/api/v1/coral')
+    .then((response) => {
+      return response.body
+    })
+}
