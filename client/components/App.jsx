@@ -1,8 +1,7 @@
 /* eslint-disable promise/catch-or-return */
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import { fetchTypes } from '../api'
 import Home from './Home'
 import Anemone from './Anemone'
 import LPS from './LPS'
@@ -12,13 +11,6 @@ import SoftCoral from './SoftCoral'
 import SPS from './SPS'
 
 function App () {
-  const [types, setTypes] = useState([])
-
-  useEffect(() => {
-    fetchTypes()
-      .then(types => setTypes(types))
-  }, [])
-
   return (
 
     <div className='app-container'>

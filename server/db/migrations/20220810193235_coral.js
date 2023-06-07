@@ -15,5 +15,5 @@ exports.up = (knex) => {
 }
 
 exports.down = (knex) => {
-  return knex.schema.droptable('coral')
+  return knex.schema.dropTable('coral')
 }

@@ -13,7 +13,7 @@ function Home () {
 
   return (
     <div>
-      <h1 className='app-title'>Coral</h1>
+      <h1 className='app-title'>CoralPedia</h1>
       <p>Welcome to CoralPedia, A project by Geoffrey Sciascia</p>
       <ul>
         {types.map(type => <li key={type.id}>{type.type}</li>)}
