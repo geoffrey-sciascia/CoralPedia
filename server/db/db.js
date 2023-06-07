@@ -1,5 +1,3 @@
-
-
 // const environment = process.env.NODE_ENV || 'development'
 const config = require('./knexfile').development
 const connection = require('knex')(config)
@@ -11,16 +9,15 @@ function getAllTypes (db = connection) {
 }
 
 // function to get all coral in that type
-function getCoralByType (id, db = connection) {
+function getSoftCoral (db = connection) {
   return db('coral')
     .select(
       'coral.name',
       'coral.scientific_name',
       'coral.id',
-      'types.*'
+      'coral.type'
     )
-    .join('types', 'coral.type', '=', 'types.id')
-    .where('types.id', id)
+    .where('coral.type', '1')
 }
 
 // function to get one coral
@@ -33,6 +30,6 @@ function getOneCoral (id, db = connection) {
 
 module.exports = {
   getAllTypes,
-  getCoralByType,
+  getSoftCoral,
   getOneCoral
 }
