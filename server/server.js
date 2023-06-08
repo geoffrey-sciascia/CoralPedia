@@ -12,7 +12,7 @@ server.use(express.json())
 
 // server.use('/api/v1/hello', helloRoutes)
 server.use('/api/v1/types', typesRoutes)
-server.use('api/v1/coral', coralRoutes)
+server.use('/api/v1/coral', coralRoutes)
 
 // for browser router (react-router-dom)
 server.get('*', (req, res) => {

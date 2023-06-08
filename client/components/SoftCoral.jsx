@@ -11,7 +11,7 @@ function SoftCoral () {
     fetchSoftCoral()
       .then(softCoral => setSoftCoral(softCoral))
   }, [])
-  console.log(softCoral)
+  // console.log(softCoral)
   return (
     <div>
       <h1>Soft Coral</h1>
