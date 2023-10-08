@@ -20,7 +20,7 @@ function getSoftCoral (db = connection) {
 function getOneCoral (id, db = connection) {
   return db('coral')
     .select()
-    .where('coral.id', '=', 1)
+    .where('coral.id', '=', id)
 }
 
 module.exports = {

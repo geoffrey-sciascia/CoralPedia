@@ -11,15 +11,14 @@ function SoftCoral () {
     fetchSoftCoral()
       .then(softCoral => setSoftCoral(softCoral))
   }, [])
-  // console.log(softCoral)
+
   return (
     <div>
       <h1>Soft Coral</h1>
       <p>Here you will find a list of Soft Coral</p>
-      {/* <ul>
-
+      <ul>
         {softCoral.map(softie => <li key={softie.id}>{softie.name}</li>)}
-      </ul> */}
+      </ul>
     </div>
   )
 }

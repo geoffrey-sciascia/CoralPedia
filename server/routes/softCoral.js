@@ -4,9 +4,10 @@ const db = require('../db/db')
 
 const router = express.Router()
 
-router.get('/SoftCoral', (req, res) => {
+router.get('/', (req, res) => {
   db.getSoftCoral(res.body)
     .then(SoftCoral => {
+      // console.log(req.body)
       return res.json(SoftCoral)
     })
     .catch(err => {

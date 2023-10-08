@@ -15,13 +15,13 @@ function App () {
 
     <div className='app-container'>
       <Routes>
-        <Route path='/' element={<Home />} />
         <Route path='/Anemone' element={<Anemone />} />
         <Route path='/LPS' element={<LPS />} />
         <Route path='/SPS' element={<SPS />} />
         <Route path='/SoftCoral' element={<SoftCoral />} />
         <Route path='/Coral/:id' element={<Coral />} />
         <Route path='/NewCoral' element={<NewCoral />} />
+        <Route path='/' element={<Home />} />
       </Routes>
     </div>
 
