@@ -31,3 +31,11 @@ export function fetchLPSCoral () {
       return response.body
     })
 }
+
+export function fetchAnemone () {
+  return request
+    .get('/api/v1/anemone')
+    .then((response) => {
+      return response.body
+    })
+}

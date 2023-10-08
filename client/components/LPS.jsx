@@ -14,7 +14,7 @@ function LPSCoral () {
 
   return (
     <div>
-      <h1>SPS Coral</h1>
+      <h1>LPS Coral</h1>
       <p>Here you will find a list of Large Polyp Stony Coral</p>
       <ul>
         {lPSCoral.map(lps => <li key={lps.id}>{lps.name}</li>)}

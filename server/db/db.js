@@ -31,6 +31,14 @@ function getLPSCoral (db = connection) {
     .where('coral.type', '=', '2')
 }
 
+// function to get all Anemone
+
+function getAnemone (db = connection) {
+  return db('coral')
+    .select()
+    .where('coral.type', '=', '4')
+}
+
 // function to get one coral
 
 function getOneCoral (id, db = connection) {
@@ -44,5 +52,6 @@ module.exports = {
   getSoftCoral,
   getSPSCoral,
   getLPSCoral,
+  getAnemone,
   getOneCoral
 }
