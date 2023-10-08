@@ -8,7 +8,7 @@ function SPSCoral () {
   const [sPSCoral, setSPSCoral] = useState([])
 
   useEffect(() => {
-    fetchsPSCoral()
+    fetchSPSCoral()
       .then(sPSCoral => setSPSCoral(sPSCoral))
   }, [])
 

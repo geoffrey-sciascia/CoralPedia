@@ -16,7 +16,7 @@ export function fetchSoftCoral () {
     })
 }
 
-export function FetchSPSCoral () {
+export function fetchSPSCoral () {
   return request
     .get('/api/v1/sPSCoral')
     .then((response) => {
