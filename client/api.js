@@ -23,3 +23,11 @@ export function fetchSPSCoral () {
       return response.body
     })
 }
+
+export function fetchLPSCoral () {
+  return request
+    .get('/api/v1/lPSCoral')
+    .then((response) => {
+      return response.body
+    })
+}
