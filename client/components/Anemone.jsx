@@ -1,6 +1,6 @@
 /* eslint-disable promise/catch-or-return */
 import React, { useEffect, useState } from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { fetchAnemone } from '../api'
 
@@ -17,7 +17,7 @@ function Anemone () {
       <h1>Anemone</h1>
       <p>Here you will find a list of Anemone</p>
       <ul>
-        {anemones.map(anemone => <li key={anemone.id}>{anemone.name}</li>)}
+        {anemones.map(anemone => <li key={anemone.id}><Link to={`/${anemone.name}`}>{anemone.name}</Link></li>)}
       </ul>
     </div>
   )

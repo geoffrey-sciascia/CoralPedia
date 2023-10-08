@@ -1,6 +1,6 @@
 /* eslint-disable promise/catch-or-return */
 import React, { useEffect, useState } from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { fetchSoftCoral } from '../api'
 
@@ -17,7 +17,7 @@ function SoftCoral () {
       <h1>Soft Coral</h1>
       <p>Here you will find a list of Soft Coral</p>
       <ul>
-        {softCoral.map(softie => <li key={softie.id}>{softie.name}</li>)}
+        {softCoral.map(softie => <li key={softie.id}><Link to={`/${softie.name}`}>{softie.name}</Link></li>)}
       </ul>
     </div>
   )
