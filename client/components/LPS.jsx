@@ -9,7 +9,7 @@ function LPSCoral () {
 
   useEffect(() => {
     fetchLPSCoral()
-      .then(sPSCoral => setLPSCoral(sPSCoral))
+      .then(lPSCoral => setLPSCoral(lPSCoral))
   }, [])
 
   return (

@@ -1,3 +1,5 @@
+const { request } = require('../server')
+
 // const environment = process.env.NODE_ENV || 'development'
 const config = require('./knexfile').development
 const connection = require('knex')(config)
@@ -41,10 +43,10 @@ function getAnemone (db = connection) {
 
 // function to get one coral
 
-function getOneCoral (id, db = connection) {
+function getOneCoral (db = connection) {
   return db('coral')
     .select()
-    .where('coral.id', '=', id)
+    .where('coral.id', '=', 1)
 }
 
 module.exports = {

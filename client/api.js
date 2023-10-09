@@ -39,3 +39,11 @@ export function fetchAnemone () {
       return response.body
     })
 }
+
+export function fetchOneCoral () {
+  return request
+    .get('/api/v1/oneCoral')
+    .then((response) => {
+      return response.body
+    })
+}

@@ -7,6 +7,7 @@ const softCoralRoutes = require('./routes/softCoral')
 const sPSCoralRoutes = require('./routes/sPSCoral')
 const lPSCoralRoutes = require('./routes/lPSCoral')
 const anemoneRoutes = require('./routes/anemone')
+const oneCoralRoutes = require('./routes/oneCoral')
 
 const server = express()
 
@@ -19,6 +20,7 @@ server.use('/api/v1/types', typesRoutes)
 server.use('/api/v1/sPSCoral', sPSCoralRoutes)
 server.use('/api/v1/lPSCoral', lPSCoralRoutes)
 server.use('/api/v1/anemone', anemoneRoutes)
+server.use('/api/v1/oneCoral', oneCoralRoutes)
 
 // for browser router (react-router-dom)
 server.get('*', (req, res) => {
