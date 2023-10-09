@@ -11,7 +11,7 @@ function getAllTypes (db = connection) {
 // function to get all soft coral
 function getSoftCoral (db = connection) {
   return db('coral')
-    .select()
+    .select('coral.name', 'coral.id')
     .where('coral.type', '=', '1')
 }
 
@@ -19,7 +19,7 @@ function getSoftCoral (db = connection) {
 
 function getSPSCoral (db = connection) {
   return db('coral')
-    .select()
+    .select('coral.name', 'coral.id')
     .where('coral.type', '=', '3')
 }
 
@@ -27,7 +27,7 @@ function getSPSCoral (db = connection) {
 
 function getLPSCoral (db = connection) {
   return db('coral')
-    .select()
+    .select('coral.name', 'coral.id')
     .where('coral.type', '=', '2')
 }
 
@@ -35,7 +35,7 @@ function getLPSCoral (db = connection) {
 
 function getAnemone (db = connection) {
   return db('coral')
-    .select()
+    .select('coral.name', 'coral.id')
     .where('coral.type', '=', '4')
 }
 
