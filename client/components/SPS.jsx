@@ -17,7 +17,7 @@ function SPSCoral () {
       <h1>SPS Coral</h1>
       <p>Here you will find a list of Small Polyp Stony Coral</p>
       <ul>
-        {sPSCoral.map(sps => <li key={sps.id}><Link to={`/${sps.id}`}>{sps.name}</Link></li>)}
+        {sPSCoral.map(sps => <li key={sps.id}><Link to={`/coral/${sps.id}`}>{sps.name}</Link></li>)}
       </ul>
     </div>
   )

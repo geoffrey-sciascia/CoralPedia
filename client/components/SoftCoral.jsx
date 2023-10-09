@@ -17,7 +17,7 @@ function SoftCoral () {
       <h1>Soft Coral</h1>
       <p>Here you will find a list of Soft Coral</p>
       <ul>
-        {softCoral.map(softie => <li key={softie.id}><Link to={`/${softie.id}`}>{softie.name}</Link></li>)}
+        {softCoral.map(softie => <li key={softie.id}><Link to={`/coral/${softie.id}`}>{softie.name}</Link></li>)}
       </ul>
     </div>
   )
