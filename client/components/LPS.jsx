@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { fetchLPSCoral } from '../api'
+import NavBar from './NavBar'
 
 function LPSCoral () {
   const [lPSCoral, setLPSCoral] = useState([])
@@ -14,6 +15,7 @@ function LPSCoral () {
 
   return (
     <div>
+      <NavBar />
       <h1>LPS Coral</h1>
       <p>Here you will find a list of Large Polyp Stony Coral</p>
       <ul>

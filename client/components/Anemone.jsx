@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { fetchAnemone } from '../api'
+import NavBar from './NavBar'
 
 function Anemone () {
   const [anemones, setAnemones] = useState([])
@@ -14,6 +15,7 @@ function Anemone () {
 
   return (
     <div>
+      <NavBar />
       <h1>Anemone</h1>
       <p>Here you will find a list of Anemone</p>
       <ul>
