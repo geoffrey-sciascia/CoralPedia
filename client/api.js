@@ -40,9 +40,10 @@ export function fetchAnemone () {
     })
 }
 
-export function fetchOneCoral () {
+export function fetchOneCoral (id) {
+  console.log(request)
   return request
-    .get('/api/v1/oneCoral')
+    .get(`/api/v1/oneCoral/coral/${id}`)
     .then((response) => {
       return response.body
     })

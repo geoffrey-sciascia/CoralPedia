@@ -25,13 +25,13 @@ function removeOddIndexCharacters (s) {
   return newString
 }
 
-router.get('/', (req, res) => {
+router.get('/coral/:id', (req, res) => {
   const url = req.rawHeaders[21] // get url
   const urlCharsArr = url.split('') // convert url string to array
   const idArr = urlCharsArr.slice(28) // remove everything but the coral id numbers from the array
   const idMash = idArr.toString() // convert array to string
   const id = removeOddIndexCharacters(idMash) // get rid of commas
-
+  // console.log(req)
   db.getOneCoral(id)
     .then(OneCoral => {
       return res.json(OneCoral)
