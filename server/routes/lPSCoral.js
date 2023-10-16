@@ -5,9 +5,8 @@ const db = require('../db/db')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  db.getLPSCoral(res.body)
+  db.getLPSCoral()
     .then(LPSCoral => {
-      // console.log(req.body)
       return res.json(LPSCoral)
     })
     .catch(err => {

@@ -1,5 +1,3 @@
-const { request } = require('../server')
-
 // const environment = process.env.NODE_ENV || 'development'
 const config = require('./knexfile').development
 const connection = require('knex')(config)
@@ -13,7 +11,7 @@ function getAllTypes (db = connection) {
 // function to get all soft coral
 function getSoftCoral (db = connection) {
   return db('coral')
-    .select('coral.name', 'coral.id')
+    .select()
     .where('coral.type', '=', '1')
 }
 
@@ -21,7 +19,7 @@ function getSoftCoral (db = connection) {
 
 function getSPSCoral (db = connection) {
   return db('coral')
-    .select('coral.name', 'coral.id')
+    .select()
     .where('coral.type', '=', '3')
 }
 
@@ -29,7 +27,7 @@ function getSPSCoral (db = connection) {
 
 function getLPSCoral (db = connection) {
   return db('coral')
-    .select('coral.name', 'coral.id')
+    .select()
     .where('coral.type', '=', '2')
 }
 
@@ -43,10 +41,10 @@ function getAnemone (db = connection) {
 
 // function to get one coral
 
-function getOneCoral (db = connection) {
+function getOneCoral (id, db = connection) {
   return db('coral')
     .select()
-    .where('coral.id', '=', 1)
+    .where('coral.id', '=', id)
 }
 
 module.exports = {

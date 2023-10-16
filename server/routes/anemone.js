@@ -5,9 +5,8 @@ const db = require('../db/db')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  db.getAnemone(res.body)
+  db.getAnemone()
     .then(Anemone => {
-      // console.log(req.body)
       return res.json(Anemone)
     })
     .catch(err => {
