@@ -19,7 +19,7 @@ function LPSCoral () {
       <h1>LPS Coral</h1>
       <p>Here you will find a list of Large Polyp Stony Coral</p>
       <ul>
-        {lPSCoral.map(lps => <li key={lps.id}><Link to={`/coral/${lps.id}`}>{lps.name}</Link></li>)}
+        {lPSCoral.map(lps => <li key={lps.id}><Link to={`/Coral/${lps.id}`}>{lps.name}</Link></li>)}
       </ul>
     </div>
   )

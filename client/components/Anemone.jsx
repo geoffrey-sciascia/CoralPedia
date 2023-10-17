@@ -19,7 +19,7 @@ function Anemone () {
       <h1>Anemone</h1>
       <p>Here you will find a list of Anemone</p>
       <ul>
-        {anemones.map(anemone => <li key={anemone.id}><Link to={`/coral/${anemone.id}`}>{anemone.name}</Link></li>)}
+        {anemones.map(anemone => <li key={anemone.id}><Link to={`/Coral/${anemone.id}`}>{anemone.name}</Link></li>)}
       </ul>
     </div>
   )
