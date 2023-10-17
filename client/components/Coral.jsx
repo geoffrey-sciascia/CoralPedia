@@ -17,10 +17,8 @@ function OneCoral () {
   return (
     <div>
       <NavBar />
-      <h1>One Coral</h1>
-      <p>This is the page for One Coral</p>
       {oneCoral.map(coral => <li key={coral.id}>
-        <div className='coral-name'><h2>{coral.name} ({coral.scientific_name})</h2></div>
+        <div className='coral-name'><h1>{coral.name} ({coral.scientific_name})</h1></div>
         <div className='coral-bio'>{coral.bio}</div>
         <div className='coral-hardyness'>{coral.hardyness}</div>
         <div className='coral-aggressiveness'>{coral.aggressiveness}</div>

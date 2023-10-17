@@ -5,22 +5,19 @@ const db = require('../db/db')
 const router = express.Router()
 
 // helper function to remove commas from id string
-function removeOddIndexCharacters (s) {
+function removeOddIndexCharacters (string) {
   // Stores the resultant string
-  var newString = ''
+  let newString = ''
 
-  for (var i = 0; i < s.length; i++) {
+  for (let i = 0; i < string.length; i++) {
     // If current index is odd
     if (i % 2 === 1) {
       // Skip the character
       continue
     }
-
-    // Otherwise, append the
-    // character
-    newString += s[i]
+    // Otherwise, append the character
+    newString += string[i]
   }
-
   // Return the result
   return newString
 }
