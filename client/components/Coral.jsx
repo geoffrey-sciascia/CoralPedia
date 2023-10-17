@@ -1,5 +1,6 @@
 /* eslint-disable promise/catch-or-return */
 import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 
 import { fetchOneCoral } from '../api'
 import NavBar from './NavBar'
@@ -7,12 +8,12 @@ import NavBar from './NavBar'
 function OneCoral () {
   const [oneCoral, setOneCoral] = useState([])
 
+  const coral = useParams()
+
   useEffect(() => {
-    fetchOneCoral()
+    fetchOneCoral(coral.id)
       .then(oneCoral => setOneCoral(oneCoral))
   }, [])
-
-  console.log(oneCoral)
 
   return (
     <div>

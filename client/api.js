@@ -41,7 +41,6 @@ export function fetchAnemone () {
 }
 
 export function fetchOneCoral (id) {
-  console.log(id)
   return request
     .get(`/api/v1/oneCoral/Coral/${id}`)
     .then((response) => {
